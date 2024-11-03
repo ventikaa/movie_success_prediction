@@ -1,0 +1,7 @@
+pandas
+requests
+tweepy
+textblob
+scikit-learn
+joblib
+python-dotenv
