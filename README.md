@@ -9,28 +9,6 @@ This project aims to predict the success of movies at the box office based on a 
 - Feature Engineering: Constructs relevant features for prediction, including cast popularity, genre impact, budget, and release timing.
 - Predictive Modeling: Uses regression models to predict box office success.
 
-## Directory Structure
-movie_success_prediction/
-│
-├── data/                 # Contains datasets for movie details, box office history, etc.
-│   ├── movies.csv
-│   ├── box_office.csv
-│   └── social_media_sentiment.csv
-│
-├── scripts/
-│   ├── data_collection.py      # Script to collect and preprocess data from TMDb and other sources
-│   ├── feature_engineering.py   # Script to engineer features like cast popularity and genre impact
-│   ├── sentiment_analysis.py    # Script to analyze sentiment from social media data
-│   ├── model_training.py        # Script to train and evaluate the predictive model
-│   └── utils.py                 # Utility functions for common tasks (e.g., data loading)
-│
-├── notebooks/
-│   └── EDA.ipynb                # Jupyter notebook for Exploratory Data Analysis (EDA)
-│
-├── requirements.txt             # Project dependencies
-└── README.md                    # Project documentation
-```
-
 ## Setup and Installation
 
 ### Prerequisites
